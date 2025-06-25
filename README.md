@@ -91,7 +91,9 @@ ParkingLotApp
 
 ## Testing
 Run all unit tests:
+```
 mvn test
+```
 
 ### Manually Verified Tests
 - Display status when lot is empty       

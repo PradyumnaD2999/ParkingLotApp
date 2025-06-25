@@ -12,9 +12,11 @@ The application allows dynamic management of a parking lot with configurable slo
 - Java 17 or higher
 
 #### How to Run:
-1. Open terminal or command prompt
-2. Navigate to directory containing the JAR file
-3. Run:
+1. Find the JAR file in:
+   `ParkingLotApp/release/`
+2. Open terminal or command prompt 
+3. Navigate to directory containing the JAR file
+4. Run:
 ```
    java -jar ParkingLotApp-1.0-SNAPSHOT.jar
 ```

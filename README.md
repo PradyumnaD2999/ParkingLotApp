@@ -15,16 +15,21 @@ The application allows dynamic management of a parking lot with configurable slo
 1. Open terminal or command prompt
 2. Navigate to directory containing the JAR file
 3. Run:
+```
    java -jar ParkingLotApp-1.0-SNAPSHOT.jar
+```
 
 ### To build and run (Complex than JAR file):
+```
 mvn clean install
 mvn exec:java -Dexec.mainClass="com.parkinglot.Main"
+```
 
 Alternatively, if `mainClass` is configured in `pom.xml` for `exec-maven-plugin`:
-
+```
 mvn clean install
 mvn exec:java
+```
 
 Ensure `exec-maven-plugin` is configured in `pom.xml`.
 

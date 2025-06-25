@@ -57,6 +57,7 @@ Ensure `exec-maven-plugin` is configured in `pom.xml`.
 
 
 ## Project Structure
+```
 ParkingLotApp
 ├─logs/
 │    ├─ parking_lot.log
@@ -80,7 +81,7 @@ ParkingLotApp
 │    │   └─ java/
 │    │       └─ com/parkinglot/
 │    │           └─ ParkingLotManagerTest.java
-
+```
 
 
 ## Testing
